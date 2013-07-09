@@ -1,0 +1,5 @@
+ <% button = Spree::PrintInvoice::Config[:print_buttons]
+      %>
+<button class="pdf_link">
+    <%= link_to "Bulk PDF Generation", admin_orders_path( :format => "pdf") %>
+  </button>
