@@ -12,7 +12,13 @@ Add spree_print_invoice to your Gemfile:
 gem 'spree_print_invoice'
 ```
 
+
+```ruby
+cp -r  /app/assets/images/rails.png /public/assets/admin/bg/spree_50.png
+```
+
 Bundle your dependencies and run the installation generator:
+
 
 ```shell
 bundle
